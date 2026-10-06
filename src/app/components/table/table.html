@@ -1,0 +1,28 @@
+<p>
+  Please enter some values and press "Calculate".
+</p>
+
+@if(data.length > 0){
+  <table>
+    <thead>
+      <tr>
+        <th>Year</th>
+        <th>Investment Value</th>
+        <th>Interest (Year)</th>
+        <th>Total Interest</th>
+        <th>Invested Capital</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for(value of data; track value.id){
+      <tr>
+        <td>{{value.year}}</td>
+        <td>{{value.annualInvestment | currency:"BR"}}</td>
+        <td>{{value.interest | currency:"BR"}}</td>
+        <td>{{value.totalInterest | currency:"BR"}}</td>
+        <td>{{value.totalAmountInvested | currency:"BR"}}</td>
+      </tr>
+      }
+    </tbody>
+  </table>
+}

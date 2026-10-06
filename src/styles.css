@@ -1,1 +1,31 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --font-poppins: "Poppins", sans-serif;
+  --font-open-sans: "Open Sans", sans-serif;
+  --font-google-sans: "Google Sans", sans-serif;
+
+  --color-frosted-mint: #D6F8D6;
+  --color-muted-teal: #7FC6A4;
+  --color-carbon-black: #1D2327;
+  --color-charcoal: #55505C;
+  --color-canary-yellow: #FAF33E;
+  --color-white-default: #FFF;
+  --color-black-default: #000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: var(--font-google-sans);
+  background-color: var(--color-white-default);
+  padding: 0px;
+  margin: 0px;
+  min-height: 100dvh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+

@@ -1,0 +1,12 @@
+header {
+  background-color: var(--color-muted-teal);
+  display: grid;
+  place-items: center;
+  padding: 22px 40px;
+  color: var(--color-carbon-black);
+}
+
+h1 {
+  padding: 0px;
+  margin: 0px;
+}

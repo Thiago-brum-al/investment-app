@@ -1,0 +1,37 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  gap: 20px;
+}
+
+.field-wrapper {
+  width: 100%;
+  display: flex;
+  flex-shrink: 0;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.container-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 24px;
+
+}
+
+label {
+  font-size: 14px;
+  flex-shrink: 0;
+  color: var(--color-carbon-black);
+  font-weight: 700;
+}
+
+input {
+  width: 100%;
+}
